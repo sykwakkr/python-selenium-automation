@@ -13,18 +13,8 @@ class HW8PageBase:
     def wait_and_click(self, *locator):
         self.driver.wait.until(EC.element_to_be_clickable(locator)).click()
 
-    def wait_until_clickable(self, *locator):
-        print(self.driver.wait.until(EC.element_to_be_clickable(locator)))
-
-    def wait_until_present(self, *locator):
-        self.driver.wait.until(EC.presence_of_element_located(locator))
-
     def wait_until_title_contains(self, *title):
         self.driver.wait.until(EC.title_contains(*title))
-
-    def wait_until_url_change(self):
-        current_url = self.driver.current_url
-        self.driver.wait.until(EC.url_changes(current_url))
 
     def find_element(self, *locator):
         return self.driver.find_element(*locator)

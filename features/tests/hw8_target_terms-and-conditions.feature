@@ -9,8 +9,6 @@ Feature: Terms and Conditions Page Test
       And HW8 Switch to the newly opened window
     Then HW8 Verify Terms and Conditions page is opened
       And HW8 User can close new window and switch back to original
-#   For each step test result review
-#    Then HW8 Pause <time> seconds at the end to review the result of step
 #   For reliability test purpose with 5 times
     Examples:
     | time |

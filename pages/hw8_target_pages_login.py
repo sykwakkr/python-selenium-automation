@@ -14,12 +14,16 @@ class HW8PageLogin(HW8PageBase):
         self.wait_and_click(*self.SIGN_IN_BUTTON)
         self.wait_and_click(*self.SIGN_IN_BUTTON_NAV)
 
+    def store_original_sign_in_page(self):
+        return self.get_current_window()
+
     def click_tc_link(self):
         self.wait_until_title_contains(self.TITLE_LOGIN)
         self.find_element(*self.TC_LABEL).click()
 
-    def switch_to_original_window(self, window_id):
-        self.close_window()
-        self.switch_to_window_by_id(window_id)
-        self.verify_partial_url('/login')
+    def switch_to_tc_window(self):
+        self.switch_to_window()
+
+    def verify_partial_url_signin(self, partial_url):
+        self.verify_partial_url(partial_url)
 
