@@ -6,7 +6,7 @@ from selenium.webdriver.common.alert import Alert
 
 class HW9PagesBase:
     EMAIL = 'ilvys@putameda.com'
-    PASSWORD = 'SeleAuto'
+    PASSWORD = '********'
 
     def __init__(self, driver):
         self.driver = driver
