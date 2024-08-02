@@ -6,18 +6,19 @@ from selenium.webdriver.support.wait import WebDriverWait
 from app.hw6application import Hw6Application
 from app.hw7_target_application import Hw7Application
 from app.hw8_target_application import HW8Application
+from app.hw9_target_application import HW9Application
 
 
 def browser_init(context):
     """
     :param context: Behave context
     """
-    option_browser = 'Safari_BrowserStack'
+    option_browser = 'Safari'
 
     driver_path_chrome = ChromeDriverManager().install()
     service_chrome = Service(driver_path_chrome)
     service_edge = Service(
-        executable_path='/Users/jkwak/Desktop/QA/python-selenium-automation/drivers/edgedriver_mac64_m1/msedgedriver')
+        executable_path='/Users/jkwak/Desktop/QA/python-selenium-automation/drivers/msedgedriver')
     service_firefox = Service(
         executable_path='/Users/jkwak/Desktop/QA/python-selenium-automation/drivers/geckodriver')
 
@@ -62,6 +63,7 @@ def browser_init(context):
     context.hw6app = Hw6Application(context.driver)
     context.hw7app = Hw7Application(context.driver)
     context.hw8app = HW8Application(context.driver)
+    context.hw9app = HW9Application(context.driver)
 
 
 def before_scenario(context, scenario):
