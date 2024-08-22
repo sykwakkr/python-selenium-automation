@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-@given('Open target.com')
+@given('HW4 Open target.com')
 def open_target_com(context):
     context.driver.get('https://www.target.com')
 

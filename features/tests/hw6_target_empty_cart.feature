@@ -1,5 +1,5 @@
 # Created by jkwak at 7/22/24
-
+@smoke @hw6
 Feature: Test Scenario for Cart Functionality by Page Objects
   # Verify "Your cart is empty" message when the cart is empty.
 

@@ -2,3 +2,6 @@ allure-behave
 behave
 selenium
 webdriver-manager
+mylib
+Appium-Python-Client
+six==1.16.0

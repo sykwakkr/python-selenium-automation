@@ -2,6 +2,7 @@
 Feature: Test Cases for Add To Cart Functionality by Page Object pattern
   # Enter feature description here
 
+  @invalid
   Scenario Outline: User can add a product to cart
     Given HW7 Open the main page
     When HW7 Search for <product>

@@ -2,6 +2,7 @@
 Feature: Test Cases for Cart Functionality
   # Test all added products are correctly in the cart.
 
+  @obsolete
   Scenario Outline: User can add any 2 products into the cart and make sure it's there
     Given Open target.com
     When Input <product1> in input search

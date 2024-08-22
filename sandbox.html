@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          type="text/css" href="style.css">
+    <title>sandbox</title>
+    <style>
+        .background-images {
+            width: 1000px;
+            height: 500px;
+            background-image: url(http://localhost:63342/python-selenium-automation/images/gray.png);
+        }
+        @font-face {
+          font-family: 'SCNS-Sefri';
+          src: url('http://localhost:63342/python-selenium-automation/images/gray.png') format('woff2'),
+               url('#') format('woff');
+        }
+        .scns {
+          font-family: 'SCNS-Sefri', Arial, sans-serif;
+          font-size: 16px;
+    }
+    </style>
+</head>
+<body>
+    <a href="hope.html">a : "Computer Hope"</a>
+
+    <div>div : Hello World</div><div>div : Hi, there</div>
+    <h1 class="title">h1 : I'm a block element</h1><h2>h2 : I'm a block element</h2>
+    <h3>h3 : I'm a block element</h3>
+
+    <span>span : Span is an inline element</span> <span>Span is an inline element</span>
+    <a href="#">a : This is a link</a> <a href="@">This is a link too</a>
+
+    <div>div : to wrap sections of a document</div>
+    <span>span : a block of a document</span>
+    <p>p : a paragraph, in visula media as blocks of text separated from blocks by blank lines and/or indentation.</p> <p>structural grouping of images of form fields</p>
+    b: break tag <br>for a new line <br><br> for void element <br><br><br>that doesn't need <br><br><br><br> to be closed.<br><br><br><br><br>
+    <br>
+    <hr>
+
+    <div>
+        <h3>The most used tags - inline elements</h3>
+        <p class="inline_element">inline elements<br>
+            <b>b : bold text</b> <b>b : bold text</b><br>
+            <i>i : italic text</i> <i>i : italic text</i><br>
+            <u>u : underline</u> <u>u : underline</u><br>
+            <span>
+                <s>s : strikethrough text inside</s> <s>s : strikethrough text inside</s><br>
+            </span>
+            <s>s : strikethrough text inside</s> <s>s : strikethrough text inside</s><br>
+            <em>em : emphasize</em> <em>em : emphasize</em><br>
+                <strong>strong : basically the same as bold</strong> <strong>strong : basically the same as bold</strong><br>
+        </p>
+        <h3>The most used tags - block elements</h3>
+        <p>block elements
+            <center>center : shows text in the center of your page</center><center>center : shows text in the center of your page</center>
+            <div style="text-align: center;">center : shows text in the center of your page</div>
+            <hr><hr>hr : horizontal rule(inline)<hr>
+        </p>
+        <br>
+        <hr>
+
+        <h3>The most used tags - <i><u>attribute elements</u></i></h3>
+        <p>
+            <a href="https://going.com">a : herf="https://going.com" -- navigate to URL, visited purple, not visited blue</a><br>
+            <a target="_blank"><s>a : target="_blank" -- open in a new tab, by default in the same tab</s></a>><br>
+            <a href="https://going.com" target="_blank">a : target="_blank" -- open in a new tab, by default in the same tab</a>><br>
+            <img>img : load an image
+            <img>img : load an image</br>
+            <img>img : src="myimage.png" -- source of the image</br>
+            <img src="./images/hw1_recipe.png">img : src="myimage.png" -- source of the image</br>
+            <img>img : border="10" -- add border</br>
+            <img border="10">img : border="10" -- add border</br>
+            <img src="./images/hw1_recipe.png" border="10">img : border="10" -- add border</br>
+            <img>img : alt="Alternative text" -- text fo mouse over</br>
+            <img alt="Alternative text" border="5">img : alt="Alternative text" -- text fo mouse over</br>
+            <img src="./images/hw1_recipe.png" alt="Alternative text" border="20">img : alt="Alternative text" -- text fo mouse over</br>
+        </p>
+        <br>
+        <hr>
+
+        <h3>The most used tags - <i><u>list</u></i></h3>
+        <div id="tag_list_div">
+            <ul class="tag_list_div_ul">unordered list</ul><ul>unordered list</ul>
+            <ul>
+                <li class="tag_list_div_ul_li">d_bullets</li><li>c_bullets</li>
+                <li>a_bullets</li>
+                <li>b_bullets</li>
+            </ul>
+            <ol>ordered list</ol>
+            <ol>
+                <li>d_bullets</li><li>c_bullets</li>
+                <li>a_bullets</li>
+                <li>b_bullets</li>
+            </ol>
+            <li>bullets</li><li>bullets</li>
+            <ul><li>nested bullets</li></ul><ul><li>nested bullets</li></ul>
+            <img src="./images/hw1_recipe.png">
+                <li>bullets</li><li>bullets</li></br>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+    <h3 id="h3_tag_tables">The most used tags - <i><u>table</u></i></h3>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <img src="./images/hw1_recipe.png">
+                </td>
+                <td>
+                    <li>table tr td2</li>
+                    <ul>
+                        <li>table tr td2 ul</li>
+                    </ul>
+                    <ol>
+                        <li>table tr td2 ul</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+        <table border="1" cellspacing="5">
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td colspan="2">This cell spans 2 columns</td>
+                <td>Cell 2</td>
+            </tr>
+            <tr>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+                <td>Cell 5</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <hr>
+
+    <div id="tag_div">
+    <h3 class="tag_h3">The most used tags - <i><u>form</u></i></h3>
+        <form action="/submit_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"><br><br>
+
+            <input type="radio" id="radio_apple" name="fruit" vaule="apple">
+            <label for="radio_apple">Apple</label><br>
+
+            <input type="radio" id="radio_banana" name="fruit" value="banana">
+            <label for="radio_banana">Banana</label><br>
+
+            <input type="radio" id="radio_cherry" name="fruit" value="cherry">
+            <label for="radio_cherry">Cherry</label><br><br>
+
+            <input type="checkbox" id="check_apple" name="fruit" vaule="apple">
+            <label for="check_apple">Apple</label><br>
+
+            <input type="checkbox" id="check_banana" name="fruit" value="banana">
+            <label for="check_banana">Banana</label><br>
+
+            <input type="checkbox" id="check_cherry" name="fruit" value="cherry">
+            <label for="check_cherry">Cherry</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <form action="/submit_form" method="post">
+            <p>Please enter your comments</p>
+
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" row="4" cols="50"></textarea><br><br>
+            <p>Please select your country</p>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="fr">France</option>
+            </select>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <br>
+    <hr>
+    <div>
+        <h1 >Element h1 {color:red;}</h1>
+        <h2 class="coffee">Class .coffee{color: white; <span>       </span><br> background-color:blue; </h2>
+        <h3 id="main-block">ID #main-block {color:black;}</h3>
+    </div>
+
+    <div id="id">
+        <span class="class1"
+           <h2 class="class2">id. class1
+                <h3 class="class2">id .class1 .class2</h3>
+            </h2>
+        </span>
+    </div>
+
+    <span id="id" class="class1 class2">
+        We can combine as many as we need by using "AND" operation<br>
+    </span><br><br>
+
+    <div>
+        <p>
+            <span>We can be more specific .ancestor .child</span>
+        </p>
+        <p class="big">
+            <span>Sometimes we want to share the same property between a few selectors</span>
+        </p>
+        <p class="large">
+            <span>Sometimes we want to share the same property between a few selectors</span>
+        </p>
+    </div>
+    <div class="box">
+        <p>
+            <span>CSS Box Modal</span>
+        </p>
+    </div>
+    <div id="hexa">
+        <p>
+            <span>We can be more specific .ancestor .child</span>
+        </p>
+        <p class="big">
+            <span>Sometimes we want to share the same property between a few selectors</span>
+        </p>
+        <p class="large">
+            <span>Sometimes we want to share the same property between a few selectors</span>
+        </p>
+    </div>
+    <br>
+    <hr>
+    <div class="background-images">
+        <img src="./images/hw1_recipe.png">
+            <li>bullets</li><li>bullets</li></br>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="background-image">
+        <img src="./images/hw1_recipe.png">
+            <li>bullets</li><li>bullets</li></br>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <a class="scns" href="http://localhost:63342/python-selenium-automation/images/gray.png"></a>
+    <a class="scns" href="@"></a>
+</body>
+</html>

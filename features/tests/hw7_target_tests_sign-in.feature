@@ -2,13 +2,14 @@
 Feature: Add a product to cart
   # Test functions used in adding a product to cart
 
+  @smoke @hw7
   Scenario: Verify Sign In form opened
     # When clicking Sign In button, the form should be opened
     Given HW7 Open the main page
     When HW7 Click the sign-in link
     Then HW7 Verify the sign-in form opened
 
-
+  @obsolete
   Scenario: User can log in using Page Object pattern
     #Create a login test case using Page Object pattern
     Given HW7 Open the main page

@@ -4,7 +4,7 @@ from time import sleep
 
 
 class Hw7PageBase:
-    EMAIL = 'ilvys@putameda.com'
+    EMAIL = 'babeeworld@halmstadflygfoto.se'
     PASSWORD = '*******'
 
     def __init__(self, driver):

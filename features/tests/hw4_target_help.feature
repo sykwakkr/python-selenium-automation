@@ -1,4 +1,5 @@
 # Created by jkwak at 7/8/24
+  @smoke @hw4
 Feature: Test Cases for Help Page UI Elements
   # Enter feature description here
 

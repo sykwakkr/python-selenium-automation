@@ -2,6 +2,7 @@
 Feature: Test Cases for Selections on Product Details
   # Enter feature description here
 
+  @obsolete
   Scenario Outline: User can use color selection for a product
     Given Open target product <product_id> page
     Then Verify user can click through <colors>

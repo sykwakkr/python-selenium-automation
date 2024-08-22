@@ -1,0 +1,86 @@
+h1 {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.coffee {
+    color:white;
+    background-color: blue;
+}
+
+#main-block {
+    color: black;
+}
+
+#id.class1.class2 {
+    background-color: lightblue;
+    color:white;
+    border: 2px;
+    padding: 10px;
+    font-size: 200%;
+}
+
+#id .class1 .class2{
+    background-color: lightblue;
+    color:white;
+    border: 2px;
+    padding: 10px;
+    font-size: 200%;
+}
+
+div p {
+    color:red;
+    font-size: 1.5em;
+}
+
+.big, .large {
+    color: green;
+    font-size: 2.0em;
+}
+
+div.box {
+    height: 50px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#hexa .big, #hexa .large {
+    color: #0d914d;
+    background-color: #9c0582;
+    font-size: 1.0em;
+}
+
+.background-image {
+    width: 500px;
+    height: 500px;
+    background-image: url(http://localhost:63342/python-selenium-automation/images/gray.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ad-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the popup appears above other content */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease; /* Smooth transition */
+  pointer-events: none; /* Prevent clicks when hidden */
+}
+
+.ad-popup.show {
+  opacity: 1; /* Show the popup */
+  pointer-events: auto; /* Allow clicks */
+}
